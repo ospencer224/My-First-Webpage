@@ -1,0 +1,55 @@
+/* ==========================================
+   Page Background and Font (Global Styles)
+   ========================================== */
+body {
+    font-family: Arial, sans-serif;          /* Uses Arial; falls back to default sans-serif if missing */
+    font-size: 1rem;                         /* Sets base text size to 100% of browser default (usually 16px) */
+    background-color: #f4f4f9;               /* Tints the page background to a soft, modern light gray-blue */
+    color: #333;                             /* Colors body text charcoal instead of harsh, solid black */
+    margin: 40px;                            /* Places a 40px buffer around all sides of the entire webpage */
+    line-height: 1.6;                        /* Adjusts text spacing vertically for clean, easy-to-read lines */
+}
+
+/* ==========================================
+   Header Styling (Top Banner)
+   ========================================== */
+header {
+    text-align: center;                      /* Aligns all inline elements (like text or links) to the center */
+    background-color: #4A90E2;               /* Fills the header box with a vibrant sky-blue background color */
+    color: white;                            /* Paints all text nested inside the header bright white */
+    padding: 20px;                           /* Generates a 20px protective inner cushion around header content */
+    border-radius: 20px;                     /* Rounds off the 4 sharp outer corners of the header element */
+}
+
+/* ==========================================
+   Typography Hierarchy (Headings)
+   ========================================== */
+h1 {
+    font-size: 2.5rem;                       /* Scales the main page title to 2.5x the base font-size (40px) */
+    margin-bottom: 0.5rem;                   /* Drops a small, proportional space beneath the main title */
+}
+
+h2 {
+    font-size: 1.75rem;                      /* Scales section titles to 1.75x the base font-size (28px) */
+}
+
+/* ==========================================
+   Section Styling (Content Blocks)
+   ========================================== */
+section {
+    background: white;                       /* Gives each separate content block a clean, solid white card background */
+    margin-top: 20px;                        /* Spacks a 20px vertical gap above each block to separate cards */
+    padding: 15px;                           /* Carves out a 15px indoor safety zone keeping text away from edges */
+    border-radius: 6px;                      /* Gently softens the outer profile corners of each content block */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Casts a faint, microscopic shadow underneath cards for depth */
+}
+
+/* ==========================================
+   Image Styling (Media)
+   ========================================== */
+img {
+    display: block;                          /* Removes the inline baseline gap below images to align cleanly */
+    max-width: 50%;                          /* Keeps graphics constrained to a maximum of half their container's width */
+    height: auto;                            /* Locks original image proportions to prevent squishing or skewing */
+    border-radius: 8px;                      /* Trims off sharp photo edges to match the website design language */
+}
