@@ -11,6 +11,7 @@
     <header>                                					 <!-- Groups top-of-page banner elements like titles and intro -->
         <h1>Welcome to My Page!</h1>        					 <!-- Renders the primary heading title of the webpage -->
         <p>Hi, I'm Spencer and this is my first HTML page.</p> 		 <!-- Displays a brief intro paragraph -->
+    
     </header>                               					 <!-- Closes the header banner section -->
 
     <main>                                  					 <!-- Holds the primary content unique to this webpage -->
@@ -26,17 +27,28 @@
                 <li>Playing Video Games</li>					 <!-- Displays the second bullet point item -->
                 <li>Reading</li>            					 <!-- Displays the third bullet point item -->
             </ul>                          					 <!-- Closes the bulleted list container -->
+         <button id="magicBtn">Click for a Secret!</button>
+         
         </section>                         					 <!-- Closes the Hobbies section -->
 
         <section>                          					 <!-- Creates a distinct content card for media display -->
             <h2>Cool Picture</h2>          					 <!-- Renders the heading for the Picture section -->
-            <img src="https://via.placeholder.com/150" alt="A placeholder image"> <!-- Displays an image asset -->
+           
+<img src="https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="A placeholder image"> <!-- Displays an image asset -->
         </section>                         					 <!-- Closes the Picture section -->
     </main>                                					 <!-- Closes the main content area -->
 
     <footer>                               					 <!-- Defines the footer block at the bottom of the page -->
         <p>Created with HTML & CSS</p>   					 <!-- Displays footer text summarizing tools used -->
     </footer>                              					 <!-- Closes the footer section -->
+
+<script>
+// Connect (hook) a click event listener to our button element
+const btn = document.getElementById('magicBtn');
+btn.addEventListener('click', function() {
+alert('✨ Hello! You successfully hooked JavaScript to your HTML page!');
+});
+</script>
 
 </body>                                    					 <!-- Closes the body element -->
 </html>                                    					 <!-- Closes the root HTML document -->
